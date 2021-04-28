@@ -13,6 +13,7 @@ class CreateMyinfoTable extends Migration
      */
     public function up()
     {
+        //table creation for myinfo
         Schema::create('myinfo', function (Blueprint $table) {
             $table->id();
             $table->string('imglink');

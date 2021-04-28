@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\MyInfo;
 use App\Http\Resources\MyInfoResource;
 
+//handling request for table
 class MyInfoController extends Controller
 {
     /**

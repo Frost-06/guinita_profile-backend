@@ -12,6 +12,7 @@ class MyInfoResource extends JsonResource
      * @param  \Illuminate\Http\Request  $request
      * @return array
      */
+    //resources from table
     public function toArray($request)
     {
         return parent::toArray($request);
